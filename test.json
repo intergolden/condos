@@ -1,31 +1,29 @@
-    ["children"] = {
-        [1] = {
-            ["children"] = {
-                [1] = {
-                    ["children"] = {
-
-                    },
-                    ["properties"] = {
-                        ["Transparency"] = 0,
-                    },
-                    ["class_name"] = "Decal",
-                    ["name"] = "Decal",
-                },
-            },
-            ["properties"] = {
-                ["Transparency"] = 0,
-                ["Position"] = 0, 0.5, 0,
-                ["Color"] = 0.639216, 0.635294, 0.647059,
-                ["Anchored"] = true,
-                ["CanCollide"] = true,
-                ["Size"] = 12, 1, 12,
-            },
-            ["class_name"] = "SpawnLocation",
-            ["name"] = "SpawnLocation",
-        },
-    },
-    ["properties"] = {
-
-    },
-    ["class_name"] = "Model",
-    ["name"] = "Model",
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "properties": {
+            "Transparency": 0
+          },
+          "class_name": "Decal",
+          "name": "Decal"
+        }
+      ],
+      "properties": {
+        "Transparency": 0,
+        "Position": [0, 0.5, 0],
+        "Color": [0.639216, 0.635294, 0.647059],
+        "Anchored": true,
+        "CanCollide": true,
+        "Size": [12, 1, 12]
+      },
+      "class_name": "SpawnLocation",
+      "name": "SpawnLocation"
+    }
+  ],
+  "properties": {},
+  "class_name": "Model",
+  "name": "Model"
+}
